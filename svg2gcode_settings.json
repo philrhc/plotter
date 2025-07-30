@@ -1,0 +1,26 @@
+{
+  "conversion": {
+    "tolerance": 0.002,
+    "feedrate": 8000.0,
+    "dpi": 96.0,
+    "origin": [
+      0.0,
+      0.0
+    ]
+  },
+  "machine": {
+    "supported_functionality": {
+      "circular_interpolation": false
+    },
+    "tool_on_sequence": "G0 Z0",
+    "tool_off_sequence": "G0 Z1",
+    "begin_sequence": "G21 G90",
+    "end_sequence": "G0 Z1\nG0 X0 Y0"
+  },
+  "postprocess": {
+    "checksums": false,
+    "line_numbers": false,
+    "newline_before_comment": false
+  },
+  "version": "V5"
+}
